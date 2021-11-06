@@ -170,6 +170,13 @@ to make the micro-controller easily replaceable in case something happens.
 ![Elite-C Soldering](./img/elite-c-solder.jpg)
 ![Elite-C Bottom](./img/elite-c-bottom.jpg)
 
+### LEFT AND RIGHT SIDES ARE SLIGHTLY SHIFTED!!!
+
+When you place the `Elite-C` on the PCB, make sure that you align the markings
+on the `TOP SIDE` of the PCB with its pins.
+
+![Elite-C Align](./img/elite-c-align.jpg)
+
 ## Checking the PCB
 
 ![almost here](./img/almost-there.jpg)
