@@ -112,7 +112,7 @@ bottom side.
 
 ![more components on top](./img/more-stuff-top.jpg)
 
-### One-Flat-All
+### <a name="section-ofa"></a>One-Flat-All
 
 When soldering the `pins` to the `OLED display` and the PCB, I recommend that
 you solder only `one` pin, like the picture below.
@@ -136,8 +136,9 @@ Use the same process for the `TRRS jack` and the `RESET button`.
 
 ![TRRS jack and reset button](./img/jack-rst.jpg)
 
-The top side of the PCB of the right side of the keyboard with a trackball
-should look something like this.
+The `top side` of the PCB of the `right side` of the keyboard with a
+`trackball` should look something like this. If you want to use a `knob`
+instead, `DO NOT ATTACH` it yet. First, we need to test the connections.
 
 ![stuff on top](./img/top-stuff.jpg)
 
@@ -188,6 +189,10 @@ shouldn't have while the PCB is powered.
 
 ![it works!](./img/its-alive.jpg)
 
+If you plan to use the `knob`, don't forget to test its switch as well.
+
+![it also works!](./img/its-alive-knob.jpg)
+
 ## Hot-Swappable
 
 Once everything is working, it's time to attach the `hot-swappable` connectors.
@@ -216,3 +221,64 @@ PCB and solder this point from above, like in the picture below.
 Once you soldered all the hot-swappable connectors, your PCB should look like this.
 
 ![hot-finished](./img/hot-all.jpg)
+![hot-finished-left](./img/hot-all-left.jpg)
+
+## Add-ons
+
+The following add-ons should be attached once you soldered all the previous
+components in this guide.
+
+### Trackball
+
+### Knob
+
+![knob](./img/knob-top.jpg)
+
+When you solder the knob, use the same
+[one-flat-all](#section-ofa) technique to attach
+the knob. Make sure that it rests flat on the PCB.
+
+![knob flat](./img/knob-flat.jpg)
+
+The bottom of the PCB should look something like this.
+
+![knob bottom](./img/knob-bottom.jpg)
+
+## Finishing the Keyboard
+
+Now, it is time for the fun part! Place your favourite switches and keycaps and
+make sure that the keyboard is working correctly.
+
+You can laser cut or 3D print the `top plate` for the switches and carefully
+insert each switch.
+
+![switches](./img/switches.jpg)
+
+Make sure that all the pins are facing the `south part` of the keyboard!
+
+![switches south](./img/switches-south.jpg)
+
+Once you have placed all your favourite switches, carefully place them on top
+of the PCB.
+
+![switches pcb](./img/switches-pcb.jpg)
+
+Gently press them until you have a nice switch sandwitch (*wink *wink).
+
+![switch sandwitch](./img/switches-sandwitches.jpg)
+
+Test that all the switches are working correctly.
+
+![key test](./img/key-test.jpg)
+
+The final PCB should look something like this.
+
+![switches all](./img/switches-all.jpg)
+
+Do the same for the other side and place your favourite keycaps on top!
+
+![keycaps](./img/keycaps.jpg)
+
+Your keyboard is finished!
+
+Congratulations! Now, let's have fun programming it!
