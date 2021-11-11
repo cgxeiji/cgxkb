@@ -72,6 +72,20 @@ install the appropriate layout!
 
 ## <a name="section-mck"></a>My Custom Keyboard
 
+To program **The Space Between You and Me**, we use something called `Boot
+Magic`. Boot Magic assigns a key from the keyboard that can be held down while
+plugging the USB-C cable so the `Elite-C` enters _"programming mode"_ rather
+that its normal keyboard mode. With this key, we don't need to press the `RESET
+button`, which can be hard to access if you are using a case for the keyboard.
+
+Each side of the keyboard has a different key assigned as the Boot Magic key.
+See the figure below for reference:
+
+![Boot Magic](./img/boot-magic.jpg)
+
+
+### Keyboard Layouts
+
 The default layout of **The Space Between You and Me** is the [CGx
 Layout](#section-cgxl) (you can check more info
 [here](https://eiji.onchi.me/project/cgx-keyboard/)). This layout is optimized
@@ -106,6 +120,7 @@ To install this layout, program the `RIGHT SIDE` like this:
 ```
 $ qmk flash -j 0 -kb cgxkb/tsbym -km default
 ```
+- Don't forget to press the [Boot Magic key](#section-mck).
 
 Then, program the `LEFT SIDE` like this:
 
@@ -114,6 +129,8 @@ Then, program the `LEFT SIDE` like this:
 ```
 $ qmk flash -j 0 -kb cgxkb/tsbym -km default
 ```
+
+- Don't forget to press the [Boot Magic key](#section-mck).
 
 
 ### <a name="section-ql"></a>QWERTY Layout
@@ -126,6 +143,8 @@ To install this layout, program the `RIGHT SIDE` like this:
 $ qmk flash -j 0 -kb cgxkb/tsbym -km qwerty
 ```
 
+- Don't forget to press the [Boot Magic key](#section-mck).
+
 Then, program the `LEFT SIDE` like this:
 
 - Set `POINTING_DEVICE_ENABLE = no` in `rules.mk`, then run:
@@ -133,6 +152,8 @@ Then, program the `LEFT SIDE` like this:
 ```
 $ qmk flash -j 0 -kb cgxkb/tsbym -km qwerty
 ```
+
+- Don't forget to press the [Boot Magic key](#section-mck).
 
 ### <a name="section-dl"></a>DVORAK Layout
 
@@ -144,6 +165,8 @@ To install this layout, program the `RIGHT SIDE` like this:
 $ qmk flash -j 0 -kb cgxkb/tsbym -km dvorak
 ```
 
+- Don't forget to press the [Boot Magic key](#section-mck).
+
 Then, program the `LEFT SIDE` like this:
 
 - Set `POINTING_DEVICE_ENABLE = no` in `rules.mk`, then run:
@@ -151,6 +174,8 @@ Then, program the `LEFT SIDE` like this:
 ```
 $ qmk flash -j 0 -kb cgxkb/tsbym -km werty
 ```
+
+- Don't forget to press the [Boot Magic key](#section-mck).
 
 ### <a name="section-cl"></a>Colemak Layout
 
@@ -162,6 +187,8 @@ To install this layout, program the `RIGHT SIDE` like this:
 $ qmk flash -j 0 -kb cgxkb/tsbym -km colemak
 ```
 
+- Don't forget to press the [Boot Magic key](#section-mck).
+
 Then, program the `LEFT SIDE` like this:
 
 - Set `POINTING_DEVICE_ENABLE = no` in `rules.mk`, then run:
@@ -169,6 +196,8 @@ Then, program the `LEFT SIDE` like this:
 ```
 $ qmk flash -j 0 -kb cgxkb/tsbym -km colemak
 ```
+
+- Don't forget to press the [Boot Magic key](#section-mck).
 
 ## <a name="section-ac"></a>Advanced Customization
 
@@ -213,4 +242,15 @@ The `trackball` uses the `PMW3360DM` optical sensor to control the mouse. The
 
 ```
 #define PMW3360_CS_PIN B6
+```
+
+### Mouse Options
+
+You can configure the time it takes for the mouse to reach the top speed or
+which dpi options are available by setting the following definitions:
+
+```
+#define MOUSE_SLOPE 1500
+#define DPI_OPTS { 400, 1600 }
+#define DPI_SET 1 // Starts with 1600 dpi
 ```
