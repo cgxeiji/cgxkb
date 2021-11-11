@@ -288,4 +288,5 @@ Do the same for the other side and place your favourite keycaps on top!
 
 Your keyboard is finished!
 
-Congratulations! Now, let's have fun programming it!
+Congratulations! Now, let's have fun programming it! Go to the [FIRMWARE
+GUIDE](./firmware_guide_en.md#section-mck) and program the layout you want!
