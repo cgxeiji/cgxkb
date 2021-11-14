@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name "kbd")(type "Legacy")(uri "/mnt/extra/cgx_extra/repos/cgxkb/kbd/kicad-symbols/kbd.lib")(options "")(descr ""))
+  (lib (name "sensor-rescue")(type "Legacy")(uri "/mnt/extra/cgx_extra/repos/cgxkb/charybdis-pmw-3360-sensor-pcb/sensor/lib/sensor-rescue.lib")(options "")(descr ""))
+  (lib (name "pwm3360")(type "Legacy")(uri "/mnt/extra/cgx_extra/repos/cgxkb/charybdis-pmw-3360-sensor-pcb/sensor/lib/pwm3360.lib")(options "")(descr ""))
+  (lib (name "local")(type "Legacy")(uri "/mnt/extra/cgx_extra/repos/cgxkb/charybdis-pmw-3360-sensor-pcb/sensor/lib/local.lib")(options "")(descr ""))
+  (lib (name "TXS0104EDR")(type "Legacy")(uri "/mnt/extra/cgx_extra/repos/cgxkb/charybdis-pmw-3360-sensor-pcb/sensor/lib/TXS0104EDR.lib")(options "")(descr ""))
+  (lib (name "SW-Microchip")(type "Legacy")(uri "/mnt/extra/cgx_extra/repos/cgxkb/charybdis-pmw-3360-sensor-pcb/sensor/lib/SW-Microchip.lib")(options "")(descr ""))
+  (lib (name "HEF4104BT")(type "Legacy")(uri "/mnt/extra/cgx_extra/repos/cgxkb/charybdis-pmw-3360-sensor-pcb/sensor/lib/HEF4104BT.lib")(options "")(descr ""))
+  (lib (name "AP7331-WG-7")(type "Legacy")(uri "/mnt/extra/cgx_extra/repos/cgxkb/charybdis-pmw-3360-sensor-pcb/sensor/lib/AP7331-WG-7.lib")(options "")(descr ""))
+)

@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "kbd")(type "KiCad")(uri "/mnt/extra/cgx_extra/repos/cgxkb/kbd/kicad-footprints/kbd.pretty")(options "")(descr ""))
+  (lib (name "pwm3360")(type "KiCad")(uri "/mnt/extra/cgx_extra/repos/cgxkb/charybdis-pmw-3360-sensor-pcb/sensor/pwm3360.pretty")(options "")(descr ""))
+  (lib (name "pwm3360.local")(type "KiCad")(uri "/mnt/extra/cgx_extra/repos/cgxkb/charybdis-pmw-3360-sensor-pcb/sensor/local.pretty")(options "")(descr ""))
+)
