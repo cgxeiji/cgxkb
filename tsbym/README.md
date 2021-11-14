@@ -15,3 +15,8 @@ assembling your keyboard from scratch.
 
 Check the firmware guide [here (English)](./firmware_guide_en.md), if you want
 to customize your keyboard.
+
+
+## Schematic
+
+Check the schematic [here](./sch/tsbym/).
