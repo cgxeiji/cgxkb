@@ -237,6 +237,117 @@ components in this guide.
 
 ### Trackball
 
+![trakball](./img/trackball.jpg)
+
+The trackball controls the mouse on your computer. The position of the
+trackball lets you use the mouse with your thumb or index finger.
+
+Unfortunately, I made a mistake when designing this beta version, so we need to
+fix the board using external components.
+
+![trackball components](./img/tb-components.jpg)
+
+You will need:
+
+|Components|Value|Quantity|
+|---|---|---|
+|Capacitor|4.7uF|1|
+|Resistor|10k|1|
+|Resistor|39|1|
+|PMW3360DM||1|
+|Lens||1|
+|PCB||1|
+|1x4 Pin Header||2|
+
+Let's start by sanding the PCB. Be careful not to damage the pre-soldered
+components on the PCB.
+
+![PCB Sanding](./img/tb-sanding.jpg)
+![PCB Sanded](./img/tb-sanded.jpg)
+
+Next, let's solder the `PMW3360DM` sensor. Here, the square-shaped hole on the
+PCB should match `pin 1` of the sensor. There is a small white mark on the
+sensor that indicates which one is `pin 1`. Use the
+[one-flat-all](#section-ofa) technique to make sure that the sensor is flat on
+the PCB. Use the picture below as reference.
+
+![Sensor Pin 1](./img/tb-pin1.jpg)
+
+Once all pins are soldered, the bottom part should look like this:
+
+![Sensor Soldered](./img/tb-sensor.jpg)
+
+`DO NOT REMOVE THE PROTECTIVE COVERS` yet. These will protect the sensor until
+we finish attaching all the components.
+
+Now, we need to bend the resistors and capacitors in a special way. Make sure
+to check all the pictures before you start bending the components to get an
+idea of the shape you should aim for.
+
+![Bending Components](./img/tb-bend.jpg)
+
+The first component we need to attach is the `10k resistor`. The straight leg
+should go to `pin 5`, while the bent leg should go to `pin 7`. The resistor
+doesn't have direction (polarity) so you are free to choose which leg to bend.
+
+![10k Resistor](./img/tb-10k.jpg)
+
+It should look something like this:
+
+![10k Resistor Front](./img/tb-10k-front.jpg)
+
+You can slightly bend the resistor towards the sensor like this:
+
+![10k Resistor Side](./img/tb-10k-side.jpg)
+
+The next component is the `39 resistor`. The `S` bent leg should go to `pin 15`
+and the `L` bent leg should go to `pin 4`.
+
+![39 Resistor](./img/tb-39.jpg)
+
+It should look something like this:
+
+![39 Resistor Side](./img/tb-39-side.jpg)
+
+The final component is the `4.7uF capacitor`. The straight leg should go to
+`pin 3`, while the bent leg should go to `pin 8`. The capacitor doesn't have
+direction (polarity) so you are free to choose which leg to bend.
+
+![4.7uF Capacitor](./img/tb-cap.jpg)
+
+It should look something like this:
+
+![4.7uF Capacitor Front](./img/tb-cap-front.jpg)
+![4.7uF Capacitor Side](./img/tb-cap-side.jpg)
+![4.7uF Capacitor Top](./img/tb-cap-top.jpg)
+
+`MAKE SURE THAT THE CAPACITOR IS CENTERED!` The capacitor should fit inside the
+hole on the PCB when you place it on top. If it doesn't fit, try to move the
+capacitor a little until it fits comfortably. When bending the legs, make sure
+that the `LEGS DO NOT TOUCH EACH OTHER`. This might break the PCB.
+
+![4.7uF Capacitor Hole Side](./img/tb-cap-hole-side.jpg)
+![4.7uF Capacitor Hole Bottom](./img/tb-cap-hole-bot.jpg)
+
+Once everything fits nicely, remove the protective film from the sensor.
+
+![Remove the protective film](./img/tb-film.jpg)
+
+Then, put the lens over the sensor. `MAKE SURE IT IS IN THE CORRECT
+ORIENTATION!` The lens only fits one way, do not try to force the lens over the
+sensor. Use the picture below as reference.
+
+![Lens](./img/tb-lens.jpg)
+![Lens Placed](./img/tb-lens2.jpg)
+
+Finally, place the PCB on the keyboard. Make sure that the `SPI` pins and the
+`POWER` pins are aligned.
+
+![Done!](./img/tb-done.jpg)
+
+Congratulations!!! You are done installing the trackball!
+
+
 ### Knob
 
 ![knob](./img/knob-top.jpg)
@@ -250,6 +361,8 @@ the knob. Make sure that it rests flat on the PCB.
 The bottom of the PCB should look something like this.
 
 ![knob bottom](./img/knob-bottom.jpg)
+
+Congratulations!!! You are done installing the knob!
 
 ## Finishing the Keyboard
 
