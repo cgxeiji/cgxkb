@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "kbd")(type "KiCad")(uri "//wsl.localhost/Ubuntu/home/onchieiji/repos/eiji/kbd/kicad-footprints/kbd.pretty")(options "")(descr ""))
+  (lib (name "cgx")(type "KiCad")(uri "//wsl.localhost/Ubuntu/home/onchieiji/repos/eiji/cgxkb/binary_star/pcb/cgx.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "cgx")(type "KiCad")(uri "//wsl.localhost/Ubuntu/home/onchieiji/repos/eiji/cgxkb/binary_star/pcb/cgx.kicad_sym")(options "")(descr ""))
+)
