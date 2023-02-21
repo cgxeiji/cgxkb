@@ -11,7 +11,24 @@ encoder on the left side. Feel free to customize these addons however you like!
 First, let's make sure we have all the components necessary to build the
 keyboard.
 
-[insert table]
+| Component                        | Quantity | Comment                                                   | Reference                                                                       |
+|----------------------------------|----------|-----------------------------------------------------------|---------------------------------------------------------------------------------|
+| Kailh Switch Socket (MX or Choc) | 38       | You can combine or add both MX and Choc.                  | https://shop.yushakobo.jp/en/products/4291?variant=43246483374311               |
+| SMD Diode 1N4148W                | 38-40    | Add an extra diode if using a rotary encoder with switch. | https://shop.yushakobo.jp/en/products/a0800di-02-100?variant=37665574420641     |
+| Pro-micro based MCU              | 2        | As long as it has the same pinout as a pro-micro.         | https://shop.yushakobo.jp/en/products/elite-c?_pos=2&_sid=359c0fb16&_ss=r       |
+| 2 Pin 3.5x6x4.3mm Tactile Switch | 2        | For the reset button.                                     | https://shop.yushakobo.jp/en/products/a0800ts-01-1?_pos=16&_sid=87bea47f3&_ss=r |
+| TRRS Jack                        | 2        |                                                           | https://shop.yushakobo.jp/en/products/a0800tr-01-1?_pos=1&_sid=73467339c&_ss=r  |
+| TRRS Cable                       | 1        | To connect each side.                                     | https://shop.yushakobo.jp/en/products/trrs_cable?_pos=1&_sid=b895f0379&_ss=r    |
+| USB Cable                        | 1        | To connect with you device. Choose depending on your MCU. | https://shop.yushakobo.jp/en/products/usb_type_a_to_c_cable                     |
+| Switch (MX or Choc)              | 38       | Choose and combine your favourite switches!               |                                                                                 |
+| Keycaps                          | 38       | Choose and combine your favourite keycaps!                |                                                                                 |
+
+| Optional Parts                   |          |                                                           |                                                                                 |
+|----------------------------------|----------|-----------------------------------------------------------|---------------------------------------------------------------------------------|
+| Rotary Encoder                   | 0-2      | Optional rotary encoder per side.                         | https://shop.yushakobo.jp/en/products/3762?_pos=1&_sid=9b1a10619&_ss=r          |
+| PMW3360DM-T2QU + Lense           | 0-2      | Optional mouse sensor per side.                           | https://www.aliexpress.com/item/32834829893.html                                |
+| 34mm Trackball                   | 0-2      | Optional mouse trackball per side.                        | https://www.amazon.co.jp/dp/B08JZ97N31/                                         |
+| OLED 128x32 SSD1306              | 0-2      | Optional if you want to add a display per side.           | https://shop.yushakobo.jp/en/products/oled?_pos=3&_sid=a4b10dd5d&_ss=r          |
 
 ## Preparing the PCB
 
