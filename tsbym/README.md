@@ -20,3 +20,7 @@ to customize your keyboard.
 ## Schematic
 
 Check the schematic [here](./sch/tsbym/).
+
+## 3D Printed Case
+
+Download the files [here](https://www.printables.com/model/987788-tsbym-case).
